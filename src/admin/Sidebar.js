@@ -53,7 +53,7 @@ function Sidebar() {
                         <p>Account balance</p>
                         <p><Link>Deposit funds <ArrowRightAltIcon /></Link></p>
                     </span>
-                    <p>$0.00USD</p>
+                    <p>Rs. 95825.00</p>
                 </div>
             </div>
 

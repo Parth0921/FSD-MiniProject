@@ -3,7 +3,7 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import Navbar from './navbar';
 
-function Header() {
+function Header2() {
 
 
     return (
@@ -28,25 +28,21 @@ function Header() {
                 </div>
 
             </div >
+           
+            <div className="header" style={{backgroundColor : '#325ff9'}}>
 
-            {/* <div className="header">
-                <div className="header__left">
-                    <Link to="/">
-                        <img
-                            className="header__logo"
-                            src="https://s3.amazonaws.com/fjds/gig_company/original/20/freelancer-logo.png?1587072521"
-                            alt="logo"
-                        />
-                    </Link>
-                    <h4>
-                    <Link to= "/working"> How It Works </Link></h4>
-                    <h4>Browse Jobs</h4>
+                <div className='header__left' style={{color : 'white', padding : '2% 10%'}}>
+                    <h1> Top Jobs </h1>
                 </div>
-                </div> */}
-        
-        <Navbar />
+               
+                <div className="header__right">
+
+                <button> I want to Work</button>
+                <button> I want to Hire</button>
+                </div>
+            </div>
         </div>
     )
 }
 
-export default Header
+export default Header2

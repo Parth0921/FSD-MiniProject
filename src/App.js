@@ -15,6 +15,8 @@ import Login from './Login';
 import Signup from './Signup';
 import Dashboard from './admin/Dashboard';
 import Dummy from './dummy';
+import Search from './Search';
+
 
 function App() {
   return (
@@ -33,6 +35,10 @@ function App() {
           </Route>
           <Route path="/DummyTestLink">
             <Dummy />
+          </Route>
+            <Route path="/search">
+            {/* <Dummy /> */}
+            <Search/>
           </Route>
           <Route path="/">
             <Header />
